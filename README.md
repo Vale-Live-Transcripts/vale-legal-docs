@@ -43,16 +43,16 @@ links in [vale-webpage](https://github.com/Vale-Live-Transcripts/vale-webpage).
 - The agreement in the app reads "I agree to the Terms of Use" (a
   declaration, as German law requires), never "I have read".
 - **Keep the documents true to the app.** The privacy policy names every
-  place data leaves the device. Today, with the app in development, it has
-  one section saying so ("The Vale! App (in Development)") and covers this
-  site, the website, the feedback form, Vercel and GitHub. **Before the app
-  is released**, replace that section with sections for what the app really
-  does (microphone access, transcripts saved on the device, where the speech
-  recognition models come from, any download or sync), each with what it is,
-  the provider and its privacy link, the types of data, the data subjects,
-  the purpose, retention and the legal basis; update the table of contents,
-  and keep it matched to the app's privacy manifest and the App Privacy
-  label in App Store Connect.
+  place data leaves the device. Its section "The Vale! App" says what the
+  released app does (the microphone, the text kept only in memory, the
+  settings on the device, Apple's speech model download, Send Feedback),
+  beside this site, the website, the feedback form, Vercel and GitHub. A
+  change to the app that adds a place data goes (a new model download, a
+  sync, a saved transcript) updates that section in every language, with what
+  it is, the provider and its privacy link, the types of data, the data
+  subjects, the purpose, retention and the legal basis, and keeps it matched
+  to the app's privacy manifest and the App Privacy label in App Store
+  Connect.
 - Each file is a standalone page: a short shared header (charset, viewport,
   `style.css`, language switch) around the document text. Edit only the text
   between the language switch and `</main>`.
