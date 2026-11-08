@@ -3,21 +3,21 @@
 The Impressum (legal notice, DDG), Datenschutzerklärung (privacy policy,
 DSGVO/GDPR) and Nutzungsbedingungen (terms of use) for Vale!, an app in
 development for iPhone, iPad and Mac that shows what is said in the room as
-large live text, in German and English. The German terms of use are the
-binding version. This repo is the only copy: the website's footer links
-here, and the app (once released) and the privacy policy URL in App Store
-Connect will point here too.
+large live text, in German and English, with the privacy policy in Spanish
+too. The German terms of use are the binding version. This repo is the only
+copy: the website's footer links here, and the app and the privacy policy
+URLs in App Store Connect point here too.
 
 ## Published at
 
 GitHub Pages serves `main` from the repo root:
 <https://vale-live-transcripts.github.io/vale-legal-docs/>
 
-| Document | German | English |
-|---|---|---|
-| Impressum | [impressum.de.html](https://vale-live-transcripts.github.io/vale-legal-docs/impressum.de.html) | [impressum.en.html](https://vale-live-transcripts.github.io/vale-legal-docs/impressum.en.html) |
-| Datenschutzerklärung | [datenschutzerklaerung.de.html](https://vale-live-transcripts.github.io/vale-legal-docs/datenschutzerklaerung.de.html) | [datenschutzerklaerung.en.html](https://vale-live-transcripts.github.io/vale-legal-docs/datenschutzerklaerung.en.html) |
-| Nutzungsbedingungen | [nutzungsbedingungen.de.html](https://vale-live-transcripts.github.io/vale-legal-docs/nutzungsbedingungen.de.html) | [nutzungsbedingungen.en.html](https://vale-live-transcripts.github.io/vale-legal-docs/nutzungsbedingungen.en.html) |
+| Document | German | English | Spanish |
+|---|---|---|---|
+| Impressum | [impressum.de.html](https://vale-live-transcripts.github.io/vale-legal-docs/impressum.de.html) | [impressum.en.html](https://vale-live-transcripts.github.io/vale-legal-docs/impressum.en.html) | — |
+| Datenschutzerklärung | [datenschutzerklaerung.de.html](https://vale-live-transcripts.github.io/vale-legal-docs/datenschutzerklaerung.de.html) | [datenschutzerklaerung.en.html](https://vale-live-transcripts.github.io/vale-legal-docs/datenschutzerklaerung.en.html) | [datenschutzerklaerung.es.html](https://vale-live-transcripts.github.io/vale-legal-docs/datenschutzerklaerung.es.html) |
+| Nutzungsbedingungen | [nutzungsbedingungen.de.html](https://vale-live-transcripts.github.io/vale-legal-docs/nutzungsbedingungen.de.html) | [nutzungsbedingungen.en.html](https://vale-live-transcripts.github.io/vale-legal-docs/nutzungsbedingungen.en.html) | — |
 
 If a file is renamed or the site moves, change the app's `LegalLinks` (in
 the private app repo, once it exists) in the same release, and the footer
@@ -25,10 +25,10 @@ links in [vale-webpage](https://github.com/Vale-Live-Transcripts/vale-webpage).
 
 ## Editing
 
-- **Keep both languages in sync.** Any sentence changed in one language
-  changes in the other in the same commit, and the sections stay in the same
+- **Keep every language in sync.** Any sentence changed in one language
+  changes in the others in the same commit, and the sections stay in the same
   order.
-- Update the "Stand" / "Last updated" date in both files of a document when
+- Update the "Stand" / "Last updated" date in every file of a document when
   its content changes.
 - **The terms of use carry a version number** ("Version 1" next to the date).
   The app will ask every user to agree to the terms before they use it, and
